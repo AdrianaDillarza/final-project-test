@@ -21,4 +21,4 @@ parámetro de desplazamiento de 33 espacios hacia la derecha,
 
 ### Diagrama de flujo
 A continuación se incluye diagrama de flujo:
-![cifrado cesar] (./assets/images/cifrado-cesar.jpg)
+![cifrado cesar](./assets/images/cifrado-cesar.jpg)
