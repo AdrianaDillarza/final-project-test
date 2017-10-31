@@ -3,6 +3,7 @@ var message = prompt("Introduce un mensaje para descifrar");
 //Declarando función "cipher" donde por medio de un for se va a recorrer el
 //mensaje ingresado, devolviendo un resultado cifrado.
 var cipher = function(letters){
+var letters = 0;
   for(var i=0; i < message.length; i++){
   cipherWord =   letters.charCodeAt(i)-65+33)%26)+65;
   cipher(message);
@@ -22,4 +23,5 @@ var decipher = function(letters){
 document.write("Tu mensaje descifrado es " + decipher);
 if(message===0){
 }
+//En caso de que el usuario no ingrese un mensaje, se le notificará con un alert
 alert("Tu mensaje no puede ser descifrado");
