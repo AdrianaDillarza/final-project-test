@@ -25,4 +25,4 @@ Crea una web que pida, por medio de un prompt(), el número de una tarjeta de cr
 
 ### Diagrama de flujo
 A continuación se incluye diagrama de flujo:
-![tarjeta-valida.jpg] (assets/images/tarjeta-valida.jpg)
+![tarjeta valida] (./assets/images/tarjeta-valida.jpg)
