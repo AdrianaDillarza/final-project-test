@@ -2,11 +2,22 @@ var cardNum = parseInt(prompt("Ingrese número de tarjeta"));
 function isValidCard(cardNumber){
 var arrayNum = [];
 var sum = 0;
-for(i=0; i<=cardNum.length; i++){
+var value = 0;
+for(var i=0; i<=cardNumber.length; i++){
+  arrayNum.push(cardNumber[i]);
   cardNum.reverse();
 }
+for(var a=0; j< arrayNum.length; a++){
+  if(a%2!==0){
+    arrayNum[a] = arrayNum[a]*2
+  }
+}
+for(var sum=0; sum <arrayNum.length; sum++){
+  if(arrayNum[sum]>=10){
+    value
 
-
+  }
+}
 
 
 
